@@ -9,6 +9,7 @@ import { HeaderComponent } from './core/components/header/header.component';
 import { BannerComponent } from './core/components/banner/banner.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieCarouselComponent } from './shared/components/movie-carousel/movie-carousel.component';
+import { DescriptionPipe } from './shared/pipes/description.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MovieCarouselComponent } from './shared/components/movie-carousel/movie
     BrowseComponent,
     HeaderComponent,
     BannerComponent,
-    MovieCarouselComponent
+    MovieCarouselComponent,
+    DescriptionPipe
   ],
   imports: [
     BrowserModule,
